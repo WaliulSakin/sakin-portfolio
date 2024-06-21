@@ -1,7 +1,46 @@
 h1 {
     font-family: "poppins", sans-serif;
+    height: 50px;
+    font-size: 50px;
+}
+
+p,
+h3 {
+    font-family: "poppins", sans-serif;
 }
 
 .orange-color {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
+.hire {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+    border-radius: 8px;
+    color: azure;
+
+}
+
+.half-width p {
+    padding-right: 400px;
+}
+
+.description {
+    padding-top: 30px;
 }
